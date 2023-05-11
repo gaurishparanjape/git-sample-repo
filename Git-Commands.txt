@@ -1,0 +1,32 @@
+GIT
+-      GIT is a version control system
+-      Distributed version control system: Local copy of the code is complete version repository 
+-       You can commit your code on local repository and when connected to network you can connect to central repository.
+-      Git maintains a local repo and version the files which can show the difference in code w.r.t. previous version, So just incases you have introducecd a bug then it can get cought easily.
+
+GITHUB:
+-      Git repo hosting service
+-       Provides remote llocation where code can be checked in.
+-      Repo :: Private, Public
+
+
+===============================================
+
+git init --> to initialise git on local repo
+
+git status -> to get the status of the local repo
+
+git add <file_name>  --> to add the file to staging
+
+git commit -m "comment" --> To add the commit the file to local repo.
+
+=========================================
+
+make changes to the file existing
+
+git add * ---> to add all the files to staging.
+
+git diff <file_name> --> mentions all the changes that are made.
+
+git diff <file_name> --> mentions all the changes that are made. --> To check and to be removed.
+
