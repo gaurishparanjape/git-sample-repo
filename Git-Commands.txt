@@ -32,3 +32,52 @@ git diff <file_name> --> mentions all the changes that are made.
 git config user.name "user_name"
 git config user.email "user_email"
 
+
+
+==================================================================================
+
+
+
+Private Branch - 1 
+
+
+
+==================================================================================
+
+GIT
+-      GIT is a version control system
+-      Distributed version control system: Local copy of the code is complete version repository 
+-       You can commit your code on local repository and when connected to network you can connect to central repository.
+-      Git maintains a local repo and version the files which can show the difference in code w.r.t. previous version, So just incases you have introducecd a bug then it can get cought easily.
+
+GITHUB:
+-      Git repo hosting service
+-       Provides remote llocation where code can be checked in.
+-      Repo :: Private, Public
+
+To create a local git repository
+Create a folder on local driver
+
+E:\git-newrepo\git-sample-repo>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+
+#### To initialise git
+E:\git-newrepo\git-sample-repo>git init
+Initialized empty Git repository in E:/git-newrepo/git-sample-repo/.git/
+
+E:\git-newrepo\git-sample-repo>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+git add <file_name> --> To add file to staging
+
+git commit -m "Comment to be mentioned while committing the file"
+
+If you make some changes to the file and then need to check whats the difference
+
+
+
