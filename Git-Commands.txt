@@ -32,3 +32,25 @@ git diff <file_name> --> mentions all the changes that are made.
 git config user.name "user_name"
 git config user.email "user_email"
 
+
+
+==========================================================================
+
+
+
+Private Branch 2
+
+
+
+==========================================================================
+
+
+
+
+
+git checkout -b <branchname> --> TO create new branch
+git checkout <branchname> ---> to switch branch
+
+
+
+
