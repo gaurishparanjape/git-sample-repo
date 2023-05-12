@@ -34,6 +34,7 @@ git config user.email "user_email"
 
 
 
+
 ==================================================================================
 
 
@@ -80,4 +81,22 @@ git commit -m "Comment to be mentioned while committing the file"
 If you make some changes to the file and then need to check whats the difference
 
 
+==========================================================================
+
+
+
+Private Branch 2
+
+
+
+==========================================================================
+
+
+
+
+
+git checkout -b <branchname> --> TO create new branch
+git checkout <branchname> ---> to switch branch
+
+=======
 
